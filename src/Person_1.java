@@ -25,7 +25,7 @@ public class Person {
     @Override
     public String toString() {
         String a = Integer.toString(age);
-        return new StringBuilder().append(name).append(", ").append(age).toString();
+        return new StringBuilder().append("(").append(name).append(", ").append(age).append(")").toString();
     }
 
 }
